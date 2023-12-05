@@ -106,6 +106,7 @@
                 status.innerText = "Correct🎉"
             }else{
                 status.innerText = "Wrong❌"
+                navigator.vibrate(200)
             }
 
             if(randomNumber > value) {
